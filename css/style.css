@@ -8,11 +8,6 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-.nav {
-    border-bottom: #d9d9d9 solid 1px ;
-    background-color: #bfbfbf;
-}
-
 .home {
     background-image: url("\\images\\home_bg.jpg");
     height: 1080px;
