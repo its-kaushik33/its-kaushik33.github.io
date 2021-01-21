@@ -59,3 +59,16 @@ strong {
 li{
     padding-bottom: 30px;
 }
+
+.contact {
+    background-color: #ABABAB;
+
+}
+
+.contactMe {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 40px;
+    text-decoration: underline;
+}
+}
