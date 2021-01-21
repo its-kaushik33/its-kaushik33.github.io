@@ -8,10 +8,13 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+section {
+    width: 100%;
+}
+
 .home {
     background-image: url("\\images\\home_bg.jpg");
     height: 1080px;
-    width: 100%;
     background-repeat: no-repeat;
     background-size: 100% 1080px;
     display: flex;
