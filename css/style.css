@@ -1,73 +1,62 @@
 * {
     margin: 0;
     padding: 0;
-    }
+}
 
-body{
-    min-width: 100%;
+.navbar-brand{
     font-family: 'Raleway', sans-serif;
 }
 
-section {
-    width: 100%;
-}
-
 .home {
-    background-image: url("\\images\\home_bg.jpg");
-    height: 1080px;
-    background-repeat: no-repeat;
-    background-size: 100% 1080px;
+    background: linear-gradient(#e66465, #9198e5);
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 80vh;
+    border-bottom: black 1px solid;
 }
 
-.myName {
-    font-size: 90px;
+.home-heading {
+    font-size: 3.0rem;
 }
 
 .about {
-    background-color: #d0d0d0;
+    background: linear-gradient(#9198e5, #e66465);
+    min-width: 100% ;
+    border-bottom: black 1px solid;
 }
 
-.aboutHeading {
+.about-heading {
     text-align: center;
-    font-size: 60px;
-    padding-top: 40px;
-    text-decoration: underline;
+    font-size: 2.5rem;
 }
 
-.aboutPara {
-    padding-top: 20px;
+.about-para {
     text-align: center;
-    font-size: 25px;
 }
 
-.aboutMe {
-    display: flex;
+.profile-pic {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 10px;
 }
 
-.profile {
-    height: 500px;
-    width: 500px;
+.rm-bullets {
+    list-style-type: none;
 }
 
-strong {
-    font-size: 25px;
-}
-
-li{
-    padding-bottom: 30px;
+.about-items {
+    font-size: x-large;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 .contact {
-    background-color: #ABABAB;
+    background: linear-gradient(#e66465, #9198e5);
 
 }
 
-.contactMe {
-    text-align: center;
-    font-size: 60px;
-    padding-top: 40px;
-    text-decoration: underline;
+.social-links {
+    text-decoration: none;
+    color: black;
 }
